@@ -4,7 +4,7 @@ SEOTitle: 聆涛的博客 | LT Blog
 header-img: img/post-bg-desk.jpg
 email: nelsonpeng13@gmail.com
 description: "Every failure is leading towards success."
-keyword: "LT, LT Blog, 聆涛的博客, penglingtao, 彭令陶, python, mongo, Elasticsearch"
+keyword: "LT, LT Blog, 聆涛的博客, penglingtao, 聆涛, python, mongo, Elasticsearch"
 url: "http://lingtao13.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/lingtao13/lingtao13.github.io.git" # you code repository
@@ -18,8 +18,8 @@ sidebar-avatar: /img/avatar_m.jpg      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: true
-weibo_username:     精分炼金师
-zhihu_username:     精分炼金师
+weibo_username:     2937136510
+zhihu_username:     nelson-peng
 github_username:    lingtao13
 # facebook_username:  None
 # jianshu_username:   None
