@@ -1,6 +1,19 @@
+---
+layout:     post
+title:      比特币与加密货币技术
+subtitle:   加密货币简介
+date:       2018-08-08
+author:     LT
+header-img: img/post-bg-hacker.jpg
+catalog: true
+tags:
+    - cryptocurrency
+    - cryptography
+---
+
+
 # Bitcoins and Cyptocurrency Technologies
 ###### reading notes by lingtao(LT) start from 2018-08-08 
-
 
 ## 第一章 密码学与加密货币简介
 ### Chapter 1 Introduction to Cryptography & Cryptocurrencies
