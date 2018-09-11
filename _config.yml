@@ -62,11 +62,11 @@ disqus_username: nelsonpeng
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: efc73dd60441d14b87e1                           #生成的clientID
+  clientSecret: 8beacfcf51be243e89eae26a85e9292d900f35c5    #生成的clientSecret
+  repo: penglingtao.github.io    #仓库名称
+  owner: lingtao13   #github用户名
+  admin: lingtao13
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
