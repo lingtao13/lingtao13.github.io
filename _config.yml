@@ -58,7 +58,6 @@ kramdown:
 # 评论系统
 # Disqus（https://disqus.com/）
 disqus_username: nelsonpeng
-disqus_enable: false
 
 # Gitalk
 gitalk:
