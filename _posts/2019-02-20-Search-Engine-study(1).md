@@ -7,7 +7,9 @@ author:     LT
 header-img: img/post-bg-map.jpg
 catalog: true
 tags:
-    - 随笔
+    - 搜索引擎
+    - 爬虫
+    - 读书笔记
 ---
 # Search Engine study (1)
 
