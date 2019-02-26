@@ -37,7 +37,7 @@ tags:
 	
 	error [1] :max file descriptors [65535] for elasticsearch process is too low, increase to at least [65536]
 	
-	solution: change the limits.conf
+		solution: change the limits.conf
 		
 		sudo vi /etc/security/limits.conf
 		
@@ -49,7 +49,7 @@ tags:
 		* hard nproc 4096
 	error [2] bootstrap check failed,memory locking requested for elasticsearch process but memory is not locked
 	
-	solution: as the same upside:
+		solution: as the same upside:
 	
 		sudo vi /etc/security/limits.conf
 		
