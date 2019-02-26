@@ -8,6 +8,7 @@ header-img: img/home-bg-art.jpg
 catalog: true
 tags:
     - 搜索引擎
+    - Elasticsearch
     - 实战笔记
 ---
 # 关于搭建ElasticSearch+Kibana的一点坑
@@ -56,6 +57,18 @@ tags:
 		
 		* soft memlock unlimited 
 		* hard memlock unlimited
+	
+	第三是配置ES默认内存，这里又不得不说百度的辣鸡（没有被墙的官网都搜不出来），我百度搜出来的结果居然是几年前的方法，导致我重开好几次。正确的方法还是Google一下就搜出来了。
+	
+		vim elasticsearch(安装根目录)/config/jvp.option(当前版本为6.6.1)
+		
+		# 修改默认
+		-Xms10g
+		-Xmx10g
+		
+		：wq(保存退出)
+		
+	便得到了非默认1g的ElasticSearch JVM heap
 
 	以上就是我本次配置elasticsearch+kibana的所有坑。其实算很少的了，但是在监听那卡了很久，而且rpm服务的日志我现在还是不知如何查看，如有大神知晓请务必告诉我。
 	
