@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Greenplum安装说明
+title:      GreenPlum安装说明
 subtitle:   
 date:       2019-10-07
 author:     LT
