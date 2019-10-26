@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Greenplum安装文档
+title:      Greenplum安装说明
 subtitle:   
-date:       2019-09-01
+date:       2019-10-07
 author:     LT
 header-img: img/post-bg-universe.jpg
 catalog: true
