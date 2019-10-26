@@ -1,15 +1,14 @@
 ---
 layout:     post
 title:      GreenPlum安装说明
-subtitle:   
+subtitle:   -安装小记
 date:       2019-10-12
 author:     LT
 header-img: img/post-bg-universe.jpg
 catalog: true
-tags:s
+tags:
     - GreenPlum
     - data warehouse
-    
 ---
 
 # Greenplum 安装说明
