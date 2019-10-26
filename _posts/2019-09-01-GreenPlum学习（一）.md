@@ -26,9 +26,9 @@ GreenPlum 优点：
 
 部分观点及内容来自何勇、陈晓峰所著的《Greenplum企业应用实战》及其他博客，取其重点用作记忆及普及
 
-##简介
+## 简介
 
-###OLTP&OLAP
+### OLTP&OLAP
 
 数据库系统一般分为两种类型：OLTP(On-Line Transaction Processing 联机事务处理)，也称之为生产系统，是事件驱动的，面向应用的。例如电子商务网站的交易系统就是典型的OLTP系统
 
@@ -109,9 +109,6 @@ Greenplum 采用 **Shared-Nothing** 架构
 - 查询速度快
 - 数据装载速度快
 - 批量DML处理快
-
-->
-
 - 面向应用的分析，构建企业级ODS/EDW、数据集市等
 
 简单地介绍了Greenplum的背景，对比了OLTP、OLAP、Shared-Everything、Shared-Nothing等特性及优劣

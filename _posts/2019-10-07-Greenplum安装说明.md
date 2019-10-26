@@ -1,6 +1,20 @@
-* Greenplum 安装说明
+---
+layout:     post
+title:      Greenplum安装文档
+subtitle:   
+date:       2019-09-01
+author:     LT
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:s
+    - GreenPlum
+    - data warehouse
+    
+---
 
-一.系统及网络配置说明
+# Greenplum 安装说明
+
+### 一.系统及网络配置说明
 
 1.网络结构
 
@@ -19,20 +33,22 @@
 - 网络：GP必须要一个大流量、最优化的网络
 - 用户限制：GP必须要对相关文件设置高度的访问权限；默认的文件访问权限限制可能会造成GP访问失败
 
-二.系统文件修改及配置安装gp(以下所有配置均在各个服务器上完成，可以通过scp等方式实现)
+### 二.系统文件修改及配置安装gp
+
+(以下所有配置均在各个服务器上完成，可以通过scp等方式实现)
 
 1.配置host文件
 
 用root用户登陆各台主机，编辑/etc/hosts，并将IP和域名映射配置加到末尾，为了让5台机器之间通过域名能相互访问，如：
 
 	# master
-	172.26.18.198   mdw
+	192.168.1.198   mdw
 	# segments
-	172.26.18.199	sdw1
-	172.26.18.200   sdw2
-	172.26.18.209   sdw3
-	172.26.18.210   sdw4
-	172.26.18.211   sdw5
+	192.168.1.199	sdw1
+	192.168.1.200   sdw2
+	192.168.1.209   sdw3
+	192.168.1.210   sdw4
+	192.168.1.211   sdw5
 	
 可在任意一台机器ping对方的域名测试，如：在master上执行 ping sdw1
 
@@ -113,7 +129,7 @@ kernel.pid_max|655360|用户打开最大进程数,全局配置的参数
 
 7.重启机器，让所有配置生效
 
-三.安装Greenplum数据库，配置gpadmin用户（也均是在各个服务器上都需要实现）
+### 三.安装Greenplum数据库，配置gpadmin用户（也均是在各个服务器上都需要实现）
 
 1.配置用户及密码
 
@@ -131,7 +147,7 @@ kernel.pid_max|655360|用户打开最大进程数,全局配置的参数
 	rpm -ivh greenplum-db-6.0.0-rhel7-x86_64.rpm --prefix=/AppData/greenplum/
 
 
-四. 配置SSH免密登录(此章操作只需在master主机操作)
+### 四. 配置SSH免密登录(此章操作只需在master主机操作)
 
 1.登录master主机并切换成gpadmin用户
 
@@ -196,7 +212,7 @@ kernel.pid_max|655360|用户打开最大进程数,全局配置的参数
 	[sdw3] gpAdminLogs  inithosts.sh  limits.conf	sysctl.conf
 	[sdw2] gpAdminLogs  limits.conf  sysctl.conf
 
-五.创建数据存储
+### 五.创建数据存储
 
 1.gpadmin用户登录
 
@@ -211,7 +227,7 @@ kernel.pid_max|655360|用户打开最大进程数,全局配置的参数
 	mkdir -p /AppData/gpdata/gpdatam1
 	mkdir -p /AppData/gpdata/gpdatam2
 
-六.初始化Greenplum集群
+### 六.初始化Greenplum集群
 
 1.使用gpadmin用户
 

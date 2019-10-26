@@ -4,7 +4,7 @@ title:      GreenPlum 学习（二）
 subtitle:   
 date:       2019-09-01
 author:     LT
-header-img: img/April-lies.jpg
+header-img: img/home-bg-universe.jpg
 catalog: true
 tags:
     - GreenPlum
