@@ -4,7 +4,7 @@ title:      GreenPlum 学习（三）
 subtitle:   
 date:       2019-10-28
 author:     LT
-header-img: img/home-bg-hacker.jpg
+header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
     - GreenPlum
