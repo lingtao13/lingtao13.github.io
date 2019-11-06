@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      dbsync-mysql2pgsql命令使用
+title:      mysql2pgsql命令使用
 subtitle:   安装小记
 date:       2019-11-06
 author:     LT
